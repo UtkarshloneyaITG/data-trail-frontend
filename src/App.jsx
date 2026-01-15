@@ -1,4 +1,4 @@
-import AuthPage from "./components/login-signup"
+import AuthPage from "../components/login-signup"
 
 
 function App() {
