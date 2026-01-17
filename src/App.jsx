@@ -1,13 +1,16 @@
-import AuthPage from "../components/login-signup"
 
 
+import Index from './index'
+import { AppProvider } from '../service/context'
 function App() {
 
 
   return (
     <div>
-      <AuthPage></AuthPage>
-    </div>
+      <AppProvider>
+        <Index></Index>
+      </AppProvider>
+    </div >
   )
 }
 
